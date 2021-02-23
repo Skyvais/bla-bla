@@ -1,1 +1,18 @@
-body{background-color: blue;}
+
+html, body {
+    /* vh = viewport height / window height */
+    min-height: 100vh;
+}
+body {
+    background-color: rgb(71, 71, 187);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+img { 
+    transform: rotate(90deg); 
+    } 
+    .logo {
+        width: 100px;
+        height:100px;
+    }
